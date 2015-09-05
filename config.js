@@ -1,6 +1,6 @@
 var path = require('path');
 
 module.exports = {
-  address: path.resolve(__dirname + '/../../datastore'),
+  address: path.resolve(process.cwd() + '/datastore'),
   indent: 2
 }
