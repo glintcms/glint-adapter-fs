@@ -7,8 +7,8 @@ var mkdirp = require('mkdirp');
 var async = require('async');
 var Query = require('mingo');
 var merge = require('utils-merge');
-var encode = require('glint-util/encode');
-var decode = require('glint-util/decode');
+//var encode = require('glint-util/encode.js');
+//var decode = require('glint-util/decode.js');
 var debug = require('debug')('glint:FileSystemAdapter');
 var config = require('./config');
 
@@ -165,12 +165,6 @@ function readFile(path, fn) {
     }
     return fn(null, obj);
   });
-}
-
-function decodeString(str) {
-  var rules = [
-
-  ]
 }
 
 /**
