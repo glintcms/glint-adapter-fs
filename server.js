@@ -33,6 +33,8 @@ function FileSystemAdapter(options) {
 
 FileSystemAdapter.prototype.api = FileSystemAdapter.api = 'adapter-provider';
 
+FileSystemAdapter.prototype.name = FileSystemAdapter.name = 'fs';
+
 FileSystemAdapter.prototype.find = function (db, type, query, fn) {
   var p = this.getPath(db, type);
   fn = fn || noop();
