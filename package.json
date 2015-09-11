@@ -1,6 +1,6 @@
 {
   "name": "glint-adapter-fs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "FileSystem Adapter for Glint :: supported for Node.js server, for browser support see: glint-adapter-ajax",
   "main": "server.js",
   "browser": "browser.js",
