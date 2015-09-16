@@ -1,6 +1,7 @@
 /**
  * Module dependencies.
  */
+var debug = require('debug')('glint-adapter-fs');
 var fs = require('fs');
 var path = require('path');
 var mkdirp = require('mkdirp');
@@ -9,7 +10,6 @@ var Query = require('mingo');
 var merge = require('utils-merge');
 //var encode = require('glint-util/encode.js');
 //var decode = require('glint-util/decode.js');
-var debug = require('debug')('glint:FileSystemAdapter');
 var config = require('./config');
 
 /**
